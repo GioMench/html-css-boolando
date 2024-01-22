@@ -66,16 +66,12 @@ main{
 
 .box{
     position: relative;
-    padding-top:10px;
+    padding-top:40px;
 }
 
 .model{
     height: 400px;
     width: 280px;
-}
-
-.white{
-    color: white;
 }
 
 .red{
@@ -90,7 +86,7 @@ main{
     text-align: center;
     font-size: 9px;
     position: absolute;
-    top:370px;
+    top:400px;
     right: 248px;
 }
 
@@ -102,7 +98,7 @@ main{
     text-align: center;
     font-size: 9px;
     position: absolute;
-    top:370px;
+    top:400px;
     right: 190px;
 }
 
@@ -115,7 +111,7 @@ main{
     text-align: center;
     font-size: 25px;
     position: absolute;
-    top:20px;
+    top:50px;
     left: 247px;
 }
 
