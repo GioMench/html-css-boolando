@@ -44,7 +44,7 @@ ul {
     color: white;
 }
 
-li{
+li {
     padding: 3px;
 }
 
@@ -53,32 +53,30 @@ li{
     width: 30px;
     padding: 10px;
 }
+
 /*add icon
 end regio Header*/
 
 /*region Main*/
-main{
+main {
     width: 70%;
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.box{
+.box {
     position: relative;
-    padding-top:40px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
-.model{
-    height: 400px;
-    width: 280px;
-}
-
-.red{
+.red {
     color: var(--boo-danger);
 }
 
-.sales{
+.sales {
     background-color: var(--boo-danger);
     padding: 2px;
     width: 28px;
@@ -86,11 +84,11 @@ main{
     text-align: center;
     font-size: 9px;
     position: absolute;
-    top:400px;
+    top: 400px;
     right: 248px;
 }
 
-.sustainable{
+.sustainable {
     background-color: var(--boo-accent);
     padding: 2px;
     width: 53px;
@@ -98,11 +96,23 @@ main{
     text-align: center;
     font-size: 9px;
     position: absolute;
-    top:400px;
+    top: 400px;
     right: 190px;
 }
 
-.heart{
+.sustainable1 {
+    background-color: var(--boo-accent);
+    padding: 2px;
+    width: 53px;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    position: absolute;
+    top: 400px;
+    right: 223px;
+}
+
+.heart {
     background-color: white;
     padding-left: 9px;
     padding-top: 2px;
@@ -111,8 +121,90 @@ main{
     text-align: center;
     font-size: 25px;
     position: absolute;
-    top:50px;
-    left: 247px;
+    top: 50px;
+    left: 257px;
 }
 
- /*end region Main*/
+.heart:hover {
+    color: red;
+}
+
+/*region first*/
+.transition1 {
+    background-image: url(./img/1.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition1:hover {
+    background-image: url(./img/1b.webp);
+    transition: 500ms;
+}
+
+/*region second*/
+.transition2 {
+    background-image: url(./img/2.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition2:hover {
+    background-image: url(./img/2b.webp);
+    transition: 500ms;
+}
+
+/*region third*/
+.transition3 {
+    background-image: url(./img/3.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition3:hover {
+    background-image: url(./img/3b.webp);
+    transition: 500ms;
+}
+
+/*region fouth*/
+.transition4 {
+    background-image: url(./img/4.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition4:hover {
+    background-image: url(./img/4b.webp);
+    transition: 500ms;
+}
+
+/*region fifth*/
+.transition5 {
+    background-image: url(./img/5.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition5:hover {
+    background-image: url(./img/5b.webp);
+    transition: 500ms;
+
+}
+
+/*region sixth*/
+.transition6 {
+    background-image: url(./img/6.webp);
+    background-size: cover;
+    height: 400px;
+    width: 280px;
+}
+
+.transition6:hover {
+    background-image: url(./img/6b.webp);
+    transition: 500ms;
+}
+/*end region Main*/
