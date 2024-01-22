@@ -1,3 +1,59 @@
-body{
+/*region utility*/
+
+:root {
+    --boo-dark: #1b1b1a;
+    --boo-primary: #ff6801;
+    --boo-danger: #ff0000;
+    --boo-accent: #018100;
+}
+
+/*region common*/
+body {
     margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*region site_header*/
+
+#site_header {
+    background-color: var(--boo-primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+
+}
+
+.srcbar {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li{
+    padding: 2px;
+}
+
+.type {
+    color: white;
+    padding: 2px;
+}
+
+.logo {
+    height: 20px;
+    width: 30px;
+    padding: 10px;
+    justify-self: center;
 }
