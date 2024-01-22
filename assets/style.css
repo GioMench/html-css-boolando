@@ -85,28 +85,38 @@ main{
 .sales{
     background-color: var(--boo-danger);
     padding: 2px;
-    width: 33px;
+    width: 28px;
+    color: white;
     text-align: center;
-    font-size: x-small;
+    font-size: 9px;
+    position: absolute;
+    top:370px;
+    right: 248px;
 }
 
 .sustainable{
     background-color: var(--boo-accent);
     padding: 2px;
     width: 53px;
+    color: white;
     text-align: center;
-    font-size: x-small;
+    font-size: 9px;
+    position: absolute;
+    top:370px;
+    right: 190px;
 }
 
 .heart{
     background-color: white;
-    padding: 3px;
-    height: 10px;
-    width: 10px;
+    padding-left: 9px;
+    padding-top: 2px;
+    padding-right: 9px;
+    padding-bottom: 2px;
     text-align: center;
+    font-size: 25px;
     position: absolute;
-    top:50px;
-    left: 50px;
+    top:20px;
+    left: 247px;
 }
 
-/*end region Main*/
+ /*end region Main*/
