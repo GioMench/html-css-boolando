@@ -15,7 +15,7 @@ body {
 
 .container {
     width: 70%;
-    margin: auto;
+    margin:auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,7 +27,7 @@ body {
     background-color: var(--boo-primary);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-size: smaller;
 
@@ -62,6 +62,7 @@ end regio Header*/
 main {
     width: 70%;
     margin: auto;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -130,6 +131,13 @@ main {
     color: red;
 }
 
+.brand{
+    font-size: small;
+}
+
+.price{
+    font-size: small;
+}
 /*region first*/
 .transition1 {
     background-image: url(./img/1.webp);
@@ -209,3 +217,18 @@ main {
     transition: 500ms;
 }
 /*end region Main*/
+
+/*region footer*/
+footer{
+    background-color: var(--boo-dark);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.srl{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
