@@ -43,16 +43,19 @@ ul {
     flex-direction: row;
     list-style-type: none;
     color: white;
+    padding: 0;
+    gap: 4px;
 }
 
 li {
-    padding: 3px;
+
 }
 
 .logo {
     height: 20px;
     width: 30px;
     padding: 10px;
+    margin-top: 5px;
 }
 
 /*add icon
@@ -231,4 +234,27 @@ footer{
     display: flex;
     flex-direction: column;
     font-size: small;
+    padding-bottom: 15px;
+    padding-top: 15px;    
+}
+
+.ul2{
+    margin:0;
+    font-size: xx-small;
+}
+
+.find-us{
+    font-size:x-small;
+}
+
+.social{
+    display: flex;   
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-top: 15px;  
+}
+
+.fab{
+    color: white;
+    margin: 0;
 }
