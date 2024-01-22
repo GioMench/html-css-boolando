@@ -41,19 +41,15 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    color: white;
 }
 li{
     padding: 2px;
 }
 
-.type {
-    color: white;
-    padding: 2px;
-}
 
 .logo {
     height: 20px;
     width: 30px;
     padding: 10px;
-    justify-self: center;
 }
