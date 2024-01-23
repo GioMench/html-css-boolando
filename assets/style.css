@@ -46,9 +46,10 @@ ul {
     padding: 0;
     gap: 4px;
 }
-
-li {
-
+ 
+.nav-item{
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
