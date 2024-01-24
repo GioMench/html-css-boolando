@@ -155,6 +155,50 @@ ul {
 
 /*end region main*/
 
+/*region footer*/
+footer{
+    background-color: var(--boo-dark);
+    color: white;
+    
+}
+
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.srl{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    padding-bottom: 15px;
+    padding-top: 15px;    
+}
+
+.ul2{
+    margin:0;
+    font-size: xx-small;
+}
+
+.find-us{
+    font-size:x-small;
+}
+
+.social{
+    display: flex;   
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-top: 15px;  
+}
+
+.fab{
+    color: white;
+    margin: 0;
+}
+
+/*end region footer*/
+
 
 
 
