@@ -8,11 +8,10 @@
 }
 
 /*region common*/
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -22,14 +21,13 @@ body {
 
 .container {
     width: 80%;
-    margin:auto;
+    margin: auto;
     max-width: 1200px;
 }
 
-img
-{
-  max-width: 100%;
-  display: block;
+img {
+    max-width: 100%;
+    display: block;
 }
 
 
@@ -60,8 +58,8 @@ ul {
     padding: 0;
     gap: 4px;
 }
- 
-.nav-item{
+
+.nav-item {
     color: white;
     text-decoration: none;
 }
@@ -78,16 +76,86 @@ ul {
 /*region main*/
 
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
-.column{
+.col-4 {
     width: calc((100% / 12) * 4);
     padding: 1rem;
-    margin-left: -1rem;
+
 }
+
+.top{
+    position: relative;
+}
+.back-image {
+    display: none;
+}
+
+.card:hover .front-image {
+    display: none;
+}
+
+.card:hover .back-image {
+    display: block;
+}
+
+.like {
+    position: absolute;
+    right: 0;
+    top:20px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.like:hover{
+    color: red;
+}
+
+.sales {
+    color: white;
+    background-color: var(--boo-danger);
+    width: 40px;
+    padding: 2px;
+    position: absolute;
+    top:400px;
+
+}
+
+.sustainable{
+    color: white;
+    background-color: var(--boo-accent);
+    width: 90px;
+    padding: 2px;
+    position: absolute;
+    top:400px;
+    left:44px;
+}
+
+.last{
+    left:0px;
+}
+.sales-price{
+    color: var(--boo-danger);
+}
+
+.price{
+
+    color: black;
+}
+
+/*end region main*/
+
+
 
 
 
