@@ -14,11 +14,9 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    max-width: 1200px;
 }
 
 /*region Header*/
@@ -36,6 +34,8 @@ body {
 .srcbar {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -53,16 +53,20 @@ ul {
 }
 
 .logo {
+    display: flex;
     height: 20px;
     width: 30px;
     padding: 10px;
     margin-top: 5px;
 }
 
-/*add icon
-end regio Header*/
+/*end regio Header*/
 
-/*region Main*/
+/*region main*/
+
+
+
+/*region Main*
 main {
     width: 70%;
     margin: auto;
@@ -142,7 +146,7 @@ main {
 .price{
     font-size: small;
 }
-/*region first*/
+/*region first*
 .transition1 {
     background-image: url(./img/1.webp);
     background-size: cover;
@@ -155,7 +159,7 @@ main {
     transition: 500ms;
 }
 
-/*region second*/
+/*region second*
 .transition2 {
     background-image: url(./img/2.webp);
     background-size: cover;
@@ -168,7 +172,7 @@ main {
     transition: 500ms;
 }
 
-/*region third*/
+/*region third*
 .transition3 {
     background-image: url(./img/3.webp);
     background-size: cover;
@@ -181,7 +185,7 @@ main {
     transition: 500ms;
 }
 
-/*region fouth*/
+/*region fouth*
 .transition4 {
     background-image: url(./img/4.webp);
     background-size: cover;
@@ -194,7 +198,7 @@ main {
     transition: 500ms;
 }
 
-/*region fifth*/
+/*region fifth*
 .transition5 {
     background-image: url(./img/5.webp);
     background-size: cover;
@@ -208,7 +212,7 @@ main {
 
 }
 
-/*region sixth*/
+/*region sixth*
 .transition6 {
     background-image: url(./img/6.webp);
     background-size: cover;
@@ -222,7 +226,7 @@ main {
 }
 /*end region Main*/
 
-/*region footer*/
+/*region footer*
 footer{
     background-color: var(--boo-dark);
     color: white;
